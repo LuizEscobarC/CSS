@@ -1,0 +1,13 @@
+/*sintaxe básica*/
+*{
+    margin:0;
+    padding:0;
+}
+
+#div_corpo{
+    background-color: black;
+}
+
+#div_aside{
+    background-color: aliceblue;
+}
