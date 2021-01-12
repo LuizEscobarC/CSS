@@ -3,41 +3,50 @@
     padding:0;
 }
 header{
-    background-color: black;
+    background-color:white;
     width: 100%;
-    height: 130px;
+    height: 90px;
     position: absolute;
     top: 0;
     left: 0;
 }
-nav{
-    background-color: blue;
-    width: 100%;
-    height: 25%;
-    margin: 120px 0 0 0;
+nav a{
+    background-color:white;
+    float: right; 
+    margin: 0 15px 0 0;
+    text-decoration: none;
+    color: black;
 }
-footer{
-    background-color: black;
+nav a:hover{
+    text-decoration:underline;
+}
+nav{
+    margin: 20px 70px 0 0 ;
+}
+#rodape{
+    background-color: rgba(0,0,0,.05);
     width: 100%;
-    height: 60px;
-    position: absolute;
+    height: 80px;
+    position: fixed;
     bottom: 0;
     left: 0;  
     clear: both;
 }
 /*Ids*/
-#lado_esquerdo{
-    background-color: aqua;
-    width: 59%;
-    min-height: 490px;
-    float: left;
-    margin: 130px 0px 0px 8px;
+#corpo{
+    width: 100%;
+    min-height: 525px;
 }
-#lado_direito{
-    background-color: blueviolet;
-    width: 39%;
-    min-height: 490px;
-    float: right;
-    margin:130px 8px 0px 0px ;
+#logo{
+    margin-top:155px;
+    margin-left: 515px;
+}
+.gLFyfgsfi{
+          width: 500px; 
+          height: 30px;
+          margin: 10px 20px 0 395px;
+}
+#botoes{
+    margin: 20px 0 0 550px;
 }
 
